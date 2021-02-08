@@ -1,0 +1,108 @@
+@font-face{
+	font-family: PoliceTitle;
+	src: url("ressources/chinese_troops.ttf");
+}
+
+@font-face{
+	font-family: PolicePrc;
+	src: url("ressources/MADEC___.TTF");
+}
+
+body{
+	background-image: url("ressources/bgSakura.jpg");
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+main{
+	font-family: PolicePrc;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+h1{
+	font-family: PoliceTitle;
+	text-align: center;
+	font-size: 5em;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: 0em;
+	background-color: #ffddffaf;
+	border-radius: 1em;
+	color: #111111;
+
+}
+
+#h2titre{
+	text-decoration-line: underline;;
+	margin-left: 2em;
+}
+
+#h2intro{
+	text-align: center;
+}
+
+audio{
+	margin-left: 28vw;
+}
+
+#gridcol{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50vw 50vw;
+}
+
+#gridrow{
+	display: grid;
+  	width: 100%;
+  	grid-template-rows: 4vw 1vw;
+}
+
+
+a{
+	color: #ff2288;
+}
+
+p{
+	color: #ffffff;
+	text-align: center;
+}
+
+
+.bulle{
+
+	margin: 1em 0vw 0em 0em;
+	background-color: #331122aa;
+	border-radius: 15px;
+	padding: 0.7em;
+	color: #ffffff;
+	font-size: 1.25em;
+
+	transition: background-color 0.3s linear;
+}
+
+.bulle:hover{
+	background-color: #220f22dd;
+	transition: background-color 0.2s linear;
+}
+
+#shortdescribe{
+	text-decoration-line: underline;
+	font-size: 1.1em;
+	color: #ffffff;
+	margin-left: 0em;
+	margin-right: 30vw;
+	background-color: #331122aa;
+	border-radius: 20px;
+	padding: 1em;
+}
+
+#shortdescribe:hover{
+	background-color: #220f22dd;
+	transition: background-color 0.2s linear;
+}
+
+#year{
+	text-align: left;
+	font-size: 1em;
+}

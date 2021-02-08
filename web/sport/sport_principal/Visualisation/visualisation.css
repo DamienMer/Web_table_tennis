@@ -1,0 +1,164 @@
+body{
+	background-image : url("../../ressources/table_tennis_bg.png");
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+#titre{
+	text-align: center;
+	font-size: 4em;
+	background-color: #222222af;
+	border-radius: 1em;
+	color: #ffffff;
+}
+
+#gridcol{
+	display: grid;
+	width : 100%;
+	grid-template-columns: 30vw 40vw 20vw 10vw;
+}
+
+#fff{
+	width: 5vw;
+	height: 10vh;
+	margin-left: 17vw;
+}
+
+#ttmor{
+	width: 5vw;
+	height: 10vh;
+	margin-left: 3vw;
+}
+
+#id_mainroom{
+	text-align: center;
+}
+
+#id_canvas{
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#id_research_room{
+	text-align: center;
+}
+
+#shortdescribe{
+	width: 20vw;
+	text-decoration-line: underline;
+	font-size: 1.1em;
+	color: #ffffff;
+	margin-left: 0em;
+	margin-right: 30vw;
+	background-color: #222222aa;
+	border-radius: 20px;
+	padding: 1em;
+}
+
+#shortdescribe:hover{
+	background-color: #222222dd;
+	transition: background-color 0.2s linear;
+}
+
+.bulle{
+
+	margin: 1em 0vw 0em 1em;
+	background-color: #222222aa;
+	border-radius: 15px;
+	padding: 0.7em;
+	color: #ffffff;
+	font-size: 1.25em;
+	transition: background-color 0.3s linear;
+}
+
+.bulle:hover{
+	background-color: #222222dd;
+	transition: background-color 0.2s linear;
+}
+
+.class_research_col{
+	display: grid;
+	width : 100%;
+	grid-template-columns: 33vw 33vw 33vw;
+	text-align: center;
+}
+
+#id_sesarch_res{
+	text-align: center;
+	
+}
+
+.class_mainroom_col{
+	display: grid;
+	width : 100%;
+	grid-template-columns: 20vw 80vw;
+	text-align: center;
+}
+
+h4{
+	text-decoration:  underline;
+}
+
+h3{
+	text-decoration: underline;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+#axe_button{
+	width: 100px;
+  	font-size: 16px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;	
+  
+}
+
+#id_navigate input{
+	width: 130px;
+	font-size: 16px;
+	margin: 2px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;	
+}
+
+#id_search_res button{
+	width: 200px;
+	font-size: 16px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;	
+}
+
+#id_selected_res button{
+	width: 200px;
+	font-size: 16px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;	
+}
+
+#id_research_room input, #id_research_room button{
+	font-size: 16px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;	
+}
+
+#normalisation_button{
+	font-size: 16px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;	
+}
+
+#axe_button:hover, #id_selected_res button:hover, #id_search_res button:hover, #id_navigate input:hover, #id_research_room button:hover, #normalisation_button:hover{
+	background-color: black;
+  	color: white;
+}

@@ -1,0 +1,89 @@
+body{
+	background-image : url("../ressources/table_tennis_bg.png");
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+#titre{
+	text-align: center;
+	font-size: 5em;
+	background-color: #222222af;
+	border-radius: 1em;
+	color: #ffffff;
+	margin: 0em 25vw 0em 25vw;
+}
+
+#gridcol{
+	display: grid;
+	width : 100%;
+	grid-template-columns: 50vw 40vw 10vw;
+}
+
+#fff{
+	width: 5vw;
+	height: 10vh;
+	margin-left: 37vw;
+
+}
+
+#ttmor{
+	width: 5vw;
+	height: 10vh;
+	margin-left: 3vw;
+}
+
+#shortdescribe{
+	width: 20vw;
+	text-decoration-line: underline;
+	font-size: 1.1em;
+	color: #ffffff;
+	margin-left: 0em;
+	margin-right: 30vw;
+	background-color: #222222aa;
+	border-radius: 20px;
+	padding: 1em;
+}
+
+main{
+	text-align: center;
+}
+
+.bulle{
+
+	margin: 3em 30vw 0em 30vw;
+	background-color: #222222dd;
+	border-radius: 15px;
+	padding: 0.7em;
+	color: #ffffff;
+	font-size: 1.25em;
+	transition: background-color 0.3s linear;
+}
+
+.bulle:hover{
+	background-color: #222222dd;
+	transition: background-color 0.2s linear;
+}
+
+button{
+	width: 200px;
+	font-size: 16px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;
+	padding: 16px 30px;	
+}
+
+input{
+	width: 200px;
+	font-size: 16px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;	
+	padding: 16px 30px;
+}
+
+button:hover, input:hover{
+	background-color: black;
+  	color: white;
+}

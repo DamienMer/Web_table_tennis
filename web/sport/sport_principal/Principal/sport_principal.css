@@ -1,0 +1,111 @@
+body{
+	background-image : url("../../ressources/table_tennis_bg.png");
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+#titre{
+	text-align: center;
+	font-size: 4em;
+	background-color: #222222af;
+	border-radius: 1em;
+	color: #ffffff;
+}
+
+#gridcol{
+	display: grid;
+	width : 100%;
+	grid-template-columns: 30vw 40vw 20vw 10vw;
+}
+
+#fff{
+	width: 5vw;
+	height: 10vh;
+	margin-left: 17vw;
+}
+
+#ttmor{
+	width: 5vw;
+	height: 10vh;
+	margin-left: 3vw;
+}
+
+#shortdescribe{
+	width: 20vw;
+	text-decoration-line: underline;
+	font-size: 1.1em;
+	color: #ffffff;
+	margin-left: 0em;
+	margin-right: 30vw;
+	background-color: #222222aa;
+	border-radius: 20px;
+	padding: 1em;
+}
+
+.bulle{
+
+	margin: 1em 30vw 0em 30vw;
+	background-color: #222222aa;
+	border-radius: 15px;
+	padding: 0.7em;
+	color: #ffffff;
+	font-size: 1.25em;
+	transition: background-color 0.3s linear;
+}
+
+.bulle:hover{
+	background-color: #222222dd;
+	transition: background-color 0.2s linear;
+}
+
+#id_mainroom{
+	text-align: center;
+}
+
+#id_research_room{
+	text-align: center;
+}
+
+#id_start_button{
+	width: 100px;
+	height: 100px;
+}
+
+#id_stop_button{
+	width: 100px;
+	height: 100px; 
+}
+
+#id_mainroom button{
+	width: 100px;
+	font-size: 16px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;	
+}
+
+#id_mainroom input{
+	font-size: 16px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;	
+}
+
+#id_navigate input{
+	width: 130px;
+	font-size: 16px;
+	margin: 2px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;	
+}	
+
+#id_mainroom button:hover, #id_navigate input:hover{
+	background-color: black;
+  	color: white;
+}
+
+h2{
+	text-decoration: underline;
+}
